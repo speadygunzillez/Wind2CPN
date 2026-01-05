@@ -53,8 +53,8 @@ def txt_to_gpx(txt_file, gpx_file):
         f.write(xmlstr)
 
 # --- Batch process all files in folder ---
-input_folder = r"CHANGE TO THE INPUT FOLDER YOU HAVE YOUR EXPORTED PC WINDPLOT TXT FILES IN"
-output_folder = r"CHANGE TO THE OUTPUT FOLDER THAT YOU WANT YOUR GPX FILES STORED IN"
+input_folder = r"CHANGE TO THE INPUT FOLDER YOU HAVE YOUR EXPORTED PC WINDPLOT TXT FILES IN"  #CHANGE
+output_folder = r"CHANGE TO THE OUTPUT FOLDER THAT YOU WANT YOUR GPX FILES STORED IN" #CHANGE
 
 os.makedirs(output_folder, exist_ok=True)
 
